@@ -7,7 +7,7 @@ interface MYJWTinterface extends jwt.JwtPayload {
 }
 
 const app = express();
-const PG_client = new Client('postgresql://postgres:admin@localhost:5432/postgres');
+const PG_client = new Client('');
 const JWT_KEY = "Postgress-db";
 
 
